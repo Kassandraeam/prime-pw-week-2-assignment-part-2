@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+/*
+We are creating the variable secret, but we're keeping it empty.
+We then create another variable which is set to the number 123.
+
+We then create a conditional statement that checks the variable code. If the variable code is equal to 123, the variable secret now holds the string 'super' as its value, and the value of the variable code is reassigned to be its original value multiplied by two.
+
+
+*/
 
 //CODE
 /*
