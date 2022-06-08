@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+/*
+We're creating a variable called name and setting it to the string 'Dane'.
+We are then creating a condition statement that checks the variable name. If it is equal to the string 'Mary', the console log will print 'Hi, Mary!'. If it is anything but 'Mary', the console will print 'How do you do?'. In this case because the variable is set to 'Dane', the console will print 'How do you do?'.
+*/
 
 //CODE
 /*
