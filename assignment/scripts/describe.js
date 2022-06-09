@@ -74,10 +74,23 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+/*
+We create a variable named isStudent and set it equal to the boolean value: true.
+We create a variable named age and set it equal to the integer 34.
+We create a variable named zip and set it equal to the integer 55407.
+
+We then begin a conditional statement that checks the value of the variable isStudent AND we check the variable zip. 
+If isStudent is defined as true AND zip is defined with a number greater than 80000, the console will print 'You're a student on the West Coast!'
+
+If those conditions aren't met, the conditional statement checks to see if isStudent is defined as false OR if the variable age is defined as a number less than 30.
+If those conditions are met, the console will print 'What are your hobbies?'.
+
+If that condition isn't met either, it checks to see if the variable isStudent is set equal to true.
+If that condition is met, the console will print 'Welcome to Prime!'.
+
+If none of the above conditions are met, the console will print 'How about the weather?'.
+
+*/
 
 //CODE
 /*
@@ -126,6 +139,15 @@ if (number >= 2) {
 }
 
 */
+
+let number = 1;
+number = number++;
+
+if (number >= 2){
+  console.log('yes')
+};
+
+
 
 
 
