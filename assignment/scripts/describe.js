@@ -140,20 +140,17 @@ if (number >= 2) {
 
 */
 
-let number = 1;
-number = number++;
-
-if (number >= 2){
-  console.log('yes')
-};
-
-
-
-
 
 //4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
+
+//4. Correct behavior:
+/*
+colorOne is incorrectly defined as 'red' and should be defined as 'blue'.
+colorTwo is incorrectly defined as 'blue' and should be defined as 'red'.
+colorTwo also needs to be set to purple inside of the conditional statement.
+*/
 
 /*
 let colorOne = 'red';
@@ -165,9 +162,16 @@ if (mix === true) {
 }
 */
 
+
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
+
+//5. Correct behavior:
+/*
+The conditional statement uses the incorrect logical. Right now it is checking if the temp is greater than 39 OR if the time is greater than or equal to 4. 
+The logical should be changed to &&. (temp > 39 && time >= 4)
+*/
 
 /*
 let temp = 40;
@@ -181,6 +185,13 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
+
+//6 Correct behavior:
+/*
+The conditional statement as it stands states that if minAge is less than or equal to, it will print 'no entry.'
+This is incorrect. The prompt states that age should be greater than or equal to minAge. 
+That first conditional statement should be if(age < minAge). 
+*/
 
 /*
 let age = 21;
