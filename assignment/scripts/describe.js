@@ -49,10 +49,8 @@ if (name === 'Mary') {
 /*
 We are creating the variable secret, but we're keeping it empty.
 We then create another variable which is set to the number 123.
-
 We then create a conditional statement that checks the variable code. If the variable code is equal to 123, the variable secret now holds the string 'super' as its value, and the value of the variable code is reassigned to be its original value multiplied by two.
-
-
+The console will log the string 'super'.
 */
 
 //CODE
@@ -69,10 +67,6 @@ if(code === 123) {
 if (code > 250) {
   secret = 'duper'
 }
-
-//console.log(secret)
-//This will console.log the string 'super'.
-//console.log(code);
 */
 
 
@@ -94,6 +88,7 @@ If that condition is met, the console will print 'Welcome to Prime!'.
 
 If none of the above conditions are met, the console will print 'How about the weather?'.
 
+Console log (isStudent) will console log 'Welcome to Prime!'.
 */
 
 //CODE
@@ -114,7 +109,7 @@ if (isStudent === true && zip > 80000 ) {
 
 console.log(isStudent);
 */
-//console.log(isStudent) will console log "Welcome to Prime!" and true.
+
 
 
 
