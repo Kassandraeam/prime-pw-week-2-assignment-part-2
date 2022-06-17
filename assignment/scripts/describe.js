@@ -41,6 +41,7 @@ if (name === 'Mary') {
   console.log('How do you do?');
 }
 
+// This will console.log "How do you do?"
 
 */
 
@@ -69,9 +70,12 @@ if (code > 250) {
   secret = 'duper'
 }
 
-console.log(secret)
-
+//console.log(secret)
+//This will console.log the string 'super'.
+//console.log(code);
 */
+
+
 
 // 3. WRITE YOUR DESCRIPTION HERE
 /*
@@ -108,8 +112,9 @@ if (isStudent === true && zip > 80000 ) {
   console.log('How about the weather?')
 }
 
+console.log(isStudent);
 */
-
+//console.log(isStudent) will console log "Welcome to Prime!" and true.
 
 
 
